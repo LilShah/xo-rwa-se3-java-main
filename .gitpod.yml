@@ -1,0 +1,21 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Build project
+    command: |
+      ./gradlew clean build
+vscode:
+  extensions:
+    - mathiasfrohlich.kotlin
+    - fwcd.kotlin
+    - redhat.java
+    - vscjava.vscode-java-debug
+    - vscjava.vscode-java-test
+    - vscjava.vscode-java-dependency
+    - gabrielbb.vscode-lombok
+    - streetsidesoftware.code-spell-checker
+    - mhutchie.git-graph
+    - richardwillis.vscode-gradle
+    - k--kato.intellij-idea-keybindings
+    - vscjava.vscode-java-pack
